@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 0 5px;
+    border-bottom: 1px solid rgb(227, 226, 226);
+}
+.nav-items{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-items>div{
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.nav-login-container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.nav-login-container>div{
+    padding: 0 15px 0 15px;
+}
+.nav-logo{
+        width: 10%;
+}
+
+.searching-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  border-bottom: 1px solid rgb(227, 226, 226);
+}
+.search-sub{
+   width: 60%;
+   display: flex;
+   align-items: center;
+}
+
+.order-button{
+    display: flex;
+    align-items: center;
+    width: 32%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.medicines-input{
+    width: 98%;
+    height: 6vh;
+    margin: 10px 0px 10px 30px;
+}
+
+.medicines-input-container{
+    width: 50%;
+}
+.quick-order-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    font-family: sans-serif;
+    background: orangered;
+    border-radius: 10px;
+    border: none;
+}
+.dropdown-lists{
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.poster-images{
+    width: 100%;
+    display: flex;
+}
+.tata_1mg{
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 19px;
+}
+.poster-image1{
+    width: 100%;
+   text-align: center;
+}
+
+.facilities{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.facilities>div>div>img{
+    width: 55%;
+    margin-top: 10px;
+}
+.facilities-sub{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+.facilities>div>div{
+   border-radius: 5px;
+}
+.facilities>div>div:hover{
+    border: 2px solid rgb(189, 188, 188);
+}
+.see-and-heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+.see-and-heading>div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+.see-and-heading>div>button{
+   border-radius: 5px;
+   padding-left: 40px;
+   padding-right: 40px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.see-and-heading>div>p{
+
+        font-size: 17px;
+        font-family: sans-serif;
+ 
+}
+.checkups{
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sub-checkups{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.checkups>div>div{
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+     margin: 10px;
+     border-radius: 10px;
+
+}
+.checkups>div>div{
+    border: 2px solid rgb(214, 214, 214);
+}
+.checkups>div>div:hover{
+    border: 2px solid gray;
+}
+.checkups>div>div>div>img{
+    width: 30%;
+    float: right;
+    padding: 5px;
+}
+.checkups>div>div>div>h3{
+   padding-left: 10px; 
+}
+.checkups>div>div>div>p{
+    padding-left: 10px; 
+ }
+ .checkups>div>div>div>span{
+    padding-left: 10px; 
+ }
